@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SOUNDVault</string>
+    <string name="textViewUsuario">Usuario</string>
+    <string name="textViewContrasena">Contraseña</string>
+    <string name="iniciarSesion">Inicio</string>
+    <string name="registrarse">Registro</string>
+    <string name="miLista">Mi lista</string>
+</resources>
