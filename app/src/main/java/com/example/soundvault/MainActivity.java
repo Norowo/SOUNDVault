@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected void onResume(){
+    protected void onResume() {
         super.onResume();
 
         Intent intent = new Intent(this, MainActivity2.class);

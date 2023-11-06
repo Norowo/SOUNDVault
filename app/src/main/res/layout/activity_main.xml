@@ -1,5 +1,4 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,78 +17,78 @@
             android:id="@+id/logoApp"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:layout_marginTop="72dp"
             android:layout_gravity="center"
+            android:layout_marginTop="72dp"
             app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/nombreUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="@string/textViewUsuario"
-            android:textSize="25dp"
             android:layout_gravity="center"
             android:layout_marginTop="70dp"
-            android:layout_marginEnd="70dp"/>
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/textViewUsuario"
+            android:textSize="25dp" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:ems="10"
-            android:textSize="20dp"
             android:inputType="textPassword"
-            android:background="@color/white" />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:text="@string/textViewContrasena"
-            android:textSize="25dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="50dp"/>
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/textViewContrasena"
+            android:textSize="25dp" />
+
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:ems="10"
             android:inputType="text"
-            android:textSize="20dp"
-            android:background="@color/white" />
+            android:textSize="20dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:backgroundTint="@color/darkBlue"
-            android:text="@string/iniciarSesion"
-            android:textSize="25dp"
-            android:layout_marginEnd="30dp"
-            />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="30dp"
+                android:backgroundTint="@color/darkBlue"
+                android:text="@string/iniciarSesion"
+                android:textSize="25dp" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:backgroundTint="@color/darkBlue"
-            android:text="@string/registrarse"
-            android:textSize="25dp" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/darkBlue"
+                android:text="@string/registrarse"
+                android:textSize="25dp" />
 
-    </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

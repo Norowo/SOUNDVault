@@ -18,13 +18,23 @@ public class ListViewLayout implements Serializable {
         this.tracklist = tracklist;
     }
 
-    public int getImagen() { return imagen; }
+    public int getImagen() {
+        return imagen;
+    }
 
-    public String getAlbum() { return album; }
+    public String getAlbum() {
+        return album;
+    }
 
-    public String getAutor() { return autor; }
+    public String getAutor() {
+        return autor;
+    }
 
-    public String getDescripcion() { return descripcion; }
+    public String getDescripcion() {
+        return descripcion;
+    }
 
-    public String getTracklist() { return tracklist; }
+    public String getTracklist() {
+        return tracklist;
+    }
 }

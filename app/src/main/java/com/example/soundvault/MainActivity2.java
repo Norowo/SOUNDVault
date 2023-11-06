@@ -43,9 +43,9 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
-    private ArrayList<ListViewLayout> GetArrayItems(){
+    private ArrayList<ListViewLayout> GetArrayItems() {
         ArrayList<ListViewLayout> listItems = new ArrayList<>();
-        listItems.add(new ListViewLayout(R.drawable.vespertine_cover, "Vespertine","Björk","\"Vespertine\" es el cuarto álbum de estudio de Björk, lanzado en 2001. Es un álbum experimental que combina música electrónica con arreglos orquestales, y explora temas de intimidad y amor. El álbum recibió críticas positivas y se considera uno de los trabajos más originales de Björk.","Tracklist:\n\n" +"1. \"Hidden Place\"\n" +
+        listItems.add(new ListViewLayout(R.drawable.vespertine_cover, "Vespertine", "Björk", "\"Vespertine\" es el cuarto álbum de estudio de Björk, lanzado en 2001. Es un álbum experimental que combina música electrónica con arreglos orquestales, y explora temas de intimidad y amor. El álbum recibió críticas positivas y se considera uno de los trabajos más originales de Björk.", "Tracklist:\n\n" + "1. \"Hidden Place\"\n" +
                 "2. \"Cocoon\"\n" +
                 "3. \"It's Not Up to You\"\n" +
                 "4. \"Undo\"\n" +
@@ -57,7 +57,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "10. \"Heirloom\"\n" +
                 "11. \"Harm of Will\"\n" +
                 "12. \"Unison\""));
-        listItems.add(new ListViewLayout(R.drawable.blueweekend_cover, "Blue Weekend","Wolf Alice","\"Blue Weekend\" es el tercer álbum de estudio de la banda británica Wolf Alice, lanzado en 2021. Este álbum presenta una mezcla de estilos que abarcan el rock alternativo, el dream pop y la música indie. Las letras exploran temas como el amor, la libertad y la introspección. \"Blue Weekend\" ha sido elogiado por su sonido expansivo y las interpretaciones emocionales de la banda.","Tracklist:\n" +
+        listItems.add(new ListViewLayout(R.drawable.blueweekend_cover, "Blue Weekend", "Wolf Alice", "\"Blue Weekend\" es el tercer álbum de estudio de la banda británica Wolf Alice, lanzado en 2021. Este álbum presenta una mezcla de estilos que abarcan el rock alternativo, el dream pop y la música indie. Las letras exploran temas como el amor, la libertad y la introspección. \"Blue Weekend\" ha sido elogiado por su sonido expansivo y las interpretaciones emocionales de la banda.", "Tracklist:\n" +
                 "\n" +
                 "1. \"The Beach\"\n" +
                 "2. \"Delicious Things\"\n" +
@@ -70,7 +70,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "9. \"The Last Man on Earth\"\n" +
                 "10. \"No Hard Feelings\"\n" +
                 "11. \"The Beach II\""));
-        listItems.add(new ListViewLayout(R.drawable.sawayama_cover, "Sawayama","Rina Sawayama","\"Sawayama\" es el álbum debut de la cantante y compositora británico-japonesa Rina Sawayama, lanzado en 2020. Este álbum es una obra diversa que abarca una amplia gama de géneros musicales, incluyendo pop, R&B, rock y electrónica. Rina Sawayama explora temas de identidad, pertenencia y autenticidad en sus letras. \"Sawayama\" recibió aclamación crítica y se ha destacado por su originalidad y versatilidad.","Tracklist:\n" +
+        listItems.add(new ListViewLayout(R.drawable.sawayama_cover, "Sawayama", "Rina Sawayama", "\"Sawayama\" es el álbum debut de la cantante y compositora británico-japonesa Rina Sawayama, lanzado en 2020. Este álbum es una obra diversa que abarca una amplia gama de géneros musicales, incluyendo pop, R&B, rock y electrónica. Rina Sawayama explora temas de identidad, pertenencia y autenticidad en sus letras. \"Sawayama\" recibió aclamación crítica y se ha destacado por su originalidad y versatilidad.", "Tracklist:\n" +
                 "\n" +
                 "1. \"Dynasty\"\n" +
                 "2. \"XS\"\n" +
@@ -85,7 +85,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "11. \"Tokyo Love Hotel\"\n" +
                 "12. \"Chosen Family\"\n" +
                 "13. \"Snakeskin\""));
-        listItems.add(new ListViewLayout(R.drawable.dirtycomputer_cover, "Dirty Computer","Janelle Monáe","\"Dirty Computer\" es el tercer álbum de estudio de la cantante, compositora y actriz Janelle Monáe, lanzado en 2018. Este álbum es un viaje musical y visual que abarca géneros como el pop, el R&B y el funk, y presenta una narrativa de ciencia ficción que explora la identidad, la liberación y la aceptación. \"Dirty Computer\" ha sido ampliamente elogiado por su innovación y su mensaje de empoderamiento.","Tracklist:\n\n" +"1. \"Dirty Computer\" (featuring Brian Wilson)\n" +
+        listItems.add(new ListViewLayout(R.drawable.dirtycomputer_cover, "Dirty Computer", "Janelle Monáe", "\"Dirty Computer\" es el tercer álbum de estudio de la cantante, compositora y actriz Janelle Monáe, lanzado en 2018. Este álbum es un viaje musical y visual que abarca géneros como el pop, el R&B y el funk, y presenta una narrativa de ciencia ficción que explora la identidad, la liberación y la aceptación. \"Dirty Computer\" ha sido ampliamente elogiado por su innovación y su mensaje de empoderamiento.", "Tracklist:\n\n" + "1. \"Dirty Computer\" (featuring Brian Wilson)\n" +
                 "2. \"Crazy, Classic, Life\"\n" +
                 "3. \"Take a Byte\"\n" +
                 "4. \"Jane's Dream\"\n" +
@@ -99,7 +99,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "12. \"Stevie's Dream\"\n" +
                 "13. \"So Afraid\"\n" +
                 "14. \"Americans\""));
-        listItems.add(new ListViewLayout(R.drawable.jubilee_cover, "Jubilee","Japanese Breakfast","\"Jubilee\" es el tercer álbum de estudio de la cantante y compositora Michelle Zauner, conocida artísticamente como Japanese Breakfast, lanzado en 2021. Este álbum es una exploración musical vibrante que fusiona elementos del pop, el rock y la música indie. \"Jubilee\" ha sido elogiado por su creatividad y letras personales que tocan temas de autodescubrimiento y superación.","Tracklist:\n\n" +"1. \"Paprika\"\n" +
+        listItems.add(new ListViewLayout(R.drawable.jubilee_cover, "Jubilee", "Japanese Breakfast", "\"Jubilee\" es el tercer álbum de estudio de la cantante y compositora Michelle Zauner, conocida artísticamente como Japanese Breakfast, lanzado en 2021. Este álbum es una exploración musical vibrante que fusiona elementos del pop, el rock y la música indie. \"Jubilee\" ha sido elogiado por su creatividad y letras personales que tocan temas de autodescubrimiento y superación.", "Tracklist:\n\n" + "1. \"Paprika\"\n" +
                 "2. \"Be Sweet\"\n" +
                 "3. \"Kokomo, IN\"\n" +
                 "4. \"Slide Tackle\"\n" +
@@ -109,7 +109,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "8. \"In Hell\"\n" +
                 "9. \"Tactics\"\n" +
                 "10. \"Posing for Cars\""));
-        listItems.add(new ListViewLayout(R.drawable.melodrama_cover, "Melodrama","Lorde","\"Melodrama\" es el segundo álbum de estudio de la cantante neozelandesa Lorde, lanzado en 2017. Este álbum es un viaje a través de las emociones y las experiencias de la vida joven y adulta, explorando temas de amor, desamor y celebración. \"Melodrama\" recibió elogios de la crítica y es conocido por su estilo musical distintivo y sus letras sinceras.","Tracklist:\n" +
+        listItems.add(new ListViewLayout(R.drawable.melodrama_cover, "Melodrama", "Lorde", "\"Melodrama\" es el segundo álbum de estudio de la cantante neozelandesa Lorde, lanzado en 2017. Este álbum es un viaje a través de las emociones y las experiencias de la vida joven y adulta, explorando temas de amor, desamor y celebración. \"Melodrama\" recibió elogios de la crítica y es conocido por su estilo musical distintivo y sus letras sinceras.", "Tracklist:\n" +
                 "\n" +
                 "1. \"Green Light\"\n" +
                 "2. \"Sober\"\n" +
@@ -122,7 +122,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "9. \"Supercut\"\n" +
                 "10. \"Liability (Reprise)\"\n" +
                 "11. \"Perfect Places\""));
-        listItems.add(new ListViewLayout(R.drawable.tarantula_cover, "Tarántula","Mónica Naranjo","\"Tarántula\" es el cuarto álbum de estudio de la cantante española Mónica Naranjo, lanzado en 2008. Este álbum marca un cambio en el estilo de Naranjo, ya que se adentra en el rock y la electrónica, alejándose de sus trabajos anteriores más orientados al pop. \"Tarántula\" es un álbum conceptual con letras introspectivas y a menudo oscilantes entre lo sensual y lo oscuro.","Tracklist:\n\n" +"1. \"Europa\"\n" +
+        listItems.add(new ListViewLayout(R.drawable.tarantula_cover, "Tarántula", "Mónica Naranjo", "\"Tarántula\" es el cuarto álbum de estudio de la cantante española Mónica Naranjo, lanzado en 2008. Este álbum marca un cambio en el estilo de Naranjo, ya que se adentra en el rock y la electrónica, alejándose de sus trabajos anteriores más orientados al pop. \"Tarántula\" es un álbum conceptual con letras introspectivas y a menudo oscilantes entre lo sensual y lo oscuro.", "Tracklist:\n\n" + "1. \"Europa\"\n" +
                 "2. \"Todo Mentira\"\t\n" +
                 "3. \"Usted\"\n" +
                 "4. \"Para Siempre\"\t\n" +
@@ -133,7 +133,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "9. \"Eva\"\t\n" +
                 "10. \"Amor y Posesión\"\t\n" +
                 "11. \"Revolución\""));
-        listItems.add(new ListViewLayout(R.drawable.a1989_cover, "1989 (Taylor's Version)","Taylor Swift","1989 (Taylor's Version) es el cuarto álbum de estudio regrabado de la cantautora estadounidense Taylor Swift, lanzado en 2023 a través de Republic Records. Es una regrabación de su quinto álbum de estudio 1989 (2014). Este álbum marca un cambio significativo en el estilo musical de Swift, alejándose del country y adentrándose en el pop. \"1989\" está inspirado en la música de la década de 1980 y se centra en temas de amor, desamor y crecimiento personal.","Tracklist:\n" +
+        listItems.add(new ListViewLayout(R.drawable.a1989_cover, "1989 (Taylor's Version)", "Taylor Swift", "1989 (Taylor's Version) es el cuarto álbum de estudio regrabado de la cantautora estadounidense Taylor Swift, lanzado en 2023 a través de Republic Records. Es una regrabación de su quinto álbum de estudio 1989 (2014). Este álbum marca un cambio significativo en el estilo musical de Swift, alejándose del country y adentrándose en el pop. \"1989\" está inspirado en la música de la década de 1980 y se centra en temas de amor, desamor y crecimiento personal.", "Tracklist:\n" +
                 "\n" +
                 "1. \"Welcome to New York\"\t\n" +
                 "2. \"Blank Space\"\t\n" +
@@ -156,7 +156,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "19. \"Now That We Don't Talk\"\t\n" +
                 "20. \"Suburban Legends\"\t\n" +
                 "21. \"Is It Over Now?\""));
-        listItems.add(new ListViewLayout(R.drawable.desireiwanttoturnintoyou_cover, "Desire I Want To Turn Into You","Caroline Polacheck","Desire, I Want to Turn Into You es el cuarto álbum de estudio de la cantautora y productora estadounidense Caroline Polachek, y el segundo bajo su nombre artístico. Lanzado en 2023 por Sony Music, The Orchard y el sello Perpetual Novice de Polachek. El mejor álbum de la carrera de Caroline Polachek es una experiencia pop transformadora, una odisea apasionada y ricamente melódica en los rincones más oscuros del amor.","Tracklist:\n\n" +"1. \"Welcome to My Island\"\t\n" +
+        listItems.add(new ListViewLayout(R.drawable.desireiwanttoturnintoyou_cover, "Desire I Want To Turn Into You", "Caroline Polacheck", "Desire, I Want to Turn Into You es el cuarto álbum de estudio de la cantautora y productora estadounidense Caroline Polachek, y el segundo bajo su nombre artístico. Lanzado en 2023 por Sony Music, The Orchard y el sello Perpetual Novice de Polachek. El mejor álbum de la carrera de Caroline Polachek es una experiencia pop transformadora, una odisea apasionada y ricamente melódica en los rincones más oscuros del amor.", "Tracklist:\n\n" + "1. \"Welcome to My Island\"\t\n" +
                 "2. \"Pretty in Possible\"\n" +
                 "3. \"Bunny Is a Rider\"\t \t \t\n" +
                 "4. \"Sunset\"\t\n" +
